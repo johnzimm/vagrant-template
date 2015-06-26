@@ -1,8 +1,8 @@
-= Vagrant Test Template
+# Vagrant Test Template
 
 Fork this repository to generate a local test server.
 
-== Vagrant Notes
+## Vagrant Notes
 
 Notes assume you are using Windows and want to use virtualbox.
 
@@ -14,4 +14,3 @@ On Windows:
     vagrant plugin install vagrant-hostmanager
     vagrant up
     vagrant ssh
-
