@@ -1,0 +1,8 @@
+---
+- name: 'CentOS-6-test'
+  box: 'puppetlabs/centos-6.6-64-nocm'
+  memory: 256
+  provision_shell:
+    - 'scripts/bootstrap-linux.sh'
+  post_up_message: 'Server Up.'
+

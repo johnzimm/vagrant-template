@@ -1,0 +1,7 @@
+*~
+/.bundle/
+/.vagrant/
+/downloads/*
+!/downloads/*.sh
+!/downloads/*.ps1
+!/downloads/*.md
