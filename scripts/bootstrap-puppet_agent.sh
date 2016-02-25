@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RELEASEVER=`rpm -qa \*-release | grep -Ei "centos|redhat" | cut -d"-" -f3`
-PUPPETSERVER='ipaddresshere'
+PUPPETSERVER='0.0.0.0'
 
 case $RELEASEVER in
 [6]*)
@@ -20,4 +20,4 @@ esac
 sudo echo "$PUPPETSERVER    puppet" >> /etc/hosts
 
 sudo yum install puppet-agent -y
-sudo /opt/puppetlabs/bin/puppet agent -t
+#sudo /opt/puppetlabs/bin/puppet agent -t
