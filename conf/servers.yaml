@@ -1,7 +1,13 @@
 ---
 # Change below to fit project
-- name: 'test-vagrant'
+- name: 'centos'
   box: 'puppetlabs/centos-7.2-64-nocm'
+  memory: 256
+  provision_shell:
+    - 'scripts/bootstrap-linux.sh'
+  post_up_message: 'Server Up.'
+- name: 'ubuntu'
+  box: 'puppetlabs/ubuntu-14.04-64-nocm'
   memory: 256
   provision_shell:
     - 'scripts/bootstrap-linux.sh'
