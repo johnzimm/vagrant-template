@@ -1,7 +1,9 @@
 *~
-/.bundle/
-/.vagrant/
-/download/*
-!/download/*.sh
-!/download/*.ps1
-!/download/*.md
+.bundle/
+.vagrant/
+download/*
+!download/*.sh
+!download/*.ps1
+!download/*.md
+local/*
+!local/.gitkeep
