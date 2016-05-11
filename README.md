@@ -14,3 +14,5 @@ On Windows:
     vagrant plugin install vagrant-hostmanager
     vagrant up
     vagrant ssh
+
+TEST
